@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+
+:root {
+  --orange-color:rgb(245, 134, 8);
+  --pink-color: rgb(175, 4, 84);
+  --white-color: white;
+  --blackish-color: rgb(36, 33, 33);
+}
+
+body{
+  font-family: 'Source Serif Pro', serif;
+  background-image: url('images/b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 18%;
+  margin: 0;
+  padding: 0;  
+}
+
+.container{
+ background-color: var(--blackish-color);
+ opacity: 0.9;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.box{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ min-width: 40rem;
+ padding: 1rem;
+}
+
+p{
+  color: var(--white-color);
+  font-size: larger;
+}
+
+#output, #txt-input{
+  width: 90%;
+  height: 20vh;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: gray;
+  color: var(--pink-color);
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+h1{
+  color: var(--orange-color);
+  font-size: 2.5rem;
+}
+
+button{
+  margin-top: 1rem;
+  padding: .5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--orange-color);
+}
